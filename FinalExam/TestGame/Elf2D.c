@@ -99,7 +99,7 @@ void Elf2DDrawLine2(float x1, float y1, float x2, float y2, char* Buffer, int wi
     }
 }
 
-char Elf2DDrawSymbol[3] = "**"; // 기본 심볼은 "**"로 설정
+char Elf2DDrawSymbol[3] = "@@"; // 기본 심볼은 "**"로 설정
 
 // 2. 심볼 설정 함수 추가
 void Elf2DSetSymbol(const char* symbol) {
